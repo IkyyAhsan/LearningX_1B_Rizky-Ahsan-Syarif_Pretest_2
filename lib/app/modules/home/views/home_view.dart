@@ -10,7 +10,7 @@ class HomeView extends GetView<HomeController> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Data List'),
+        title: const Text('Profile Screen'),
         centerTitle: true,
       ),
       body: Obx(
